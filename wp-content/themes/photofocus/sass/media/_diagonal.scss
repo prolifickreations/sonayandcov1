@@ -1,0 +1,199 @@
+/**
+ * 15.9 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+    body,
+    .site-footer .widget .widget-title {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    #promotion-section .readmore,
+    .more-link .readmore,
+    ul.products li.product .woocommerce-loop-product__title,
+    #testimonial-content-section .entry-title,
+    .team-content-wrapper .button,
+    .site-content .view-more a,
+    button,
+    .button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .posts-navigation a,
+    #content #infinite-handle span button,
+    nav.navigation.posts-navigation .nav-links a,
+    .catch-instagram-feed-gallery-widget-wrapper .button,
+    #footer-newsletter .ewnewsletter .hentry form input[type="submit"] {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .home .header-media .section-title,
+    #feature-slider-section .entry-title,
+    .stats-content-wrapper .hentry-inner .sub-title,
+    .entry-content h1,
+    .entry-summary h1,
+    .comment-content h1,
+    .textwidget h1 {
+        font-size: 58px;
+        font-size: 3.625rem;
+    }
+
+    .section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    #footer-instagram .widget-title,
+    .page-title,
+    .entry-content h2,
+    .entry-summary h2,
+    .comment-content h2,
+    .archive-posts-wrapper .entry-title,
+    .contact-content-wrapper .contact-us-form .entry-title,
+    .section-title,
+    .textwidget h2,
+    body:not(.home) .header-media .section-title {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    .entry-content h3,
+    .entry-summary h3,
+    .comment-content h3,
+    .textwidget h3 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    .entry-content h4,
+    .entry-summary h4,
+    .comment-content h4,
+    .textwidget h4 {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    .entry-content h5,
+    .entry-summary h5,
+    .comment-content h5,
+    .textwidget h5,
+    .color-scheme-corporate .site-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .site-content .view-more a {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .is-open .menu-inside-wrapper {
+        right: 3%;
+    }
+
+    .section.no-section-heading {
+        padding-top: 98px;
+    }
+
+    .more-link {
+        margin: 49px 0 0;
+    }
+
+    .custom-header-content,
+    #feature-slider-section .hentry-inner {
+        padding: 147px 50px;
+    }
+
+    .hero-content-wrapper .entry-container {
+        padding: 56px 0 56px 120px;
+    }
+
+    .archive-posts-wrapper .cat-links {
+        margin-bottom: 21px;
+    }
+
+    .content-align-left .hero-content-wrapper .entry-container {
+        padding: 56px 120px 56px 0;
+    }
+
+    .archive-post-wrap .hentry {
+        margin-bottom: 77px;
+    }
+
+    .archive-post-wrap .post-thumbnail {
+        margin-bottom: 49px;
+    }
+
+    #feature-slider-section .owl-prev .icon,
+    #feature-slider-section .owl-next .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-floating-navigation {
+        left: 20px;
+    }
+
+    .section-heading-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .stats-section.no-section-heading .wrapper {
+        padding-top: 0;
+    }
+
+    .recent-blog-content .archive-post-wrap .entry-container,
+    .site-content .content-area .entry-container {
+        padding: 203px 140px;
+    }
+
+    .section, #footer-newsletter .has-background-image.widget {
+        padding: 28px 0;
+    }
+
+    .header-media + .section {
+        padding-top: 98px;
+    }
+
+    .header-media + .section.no-section-heading,
+    #feature-slider-section + .section.no-section-heading {
+        padding-top: 140px;
+    }
+
+    body .section.no-section-heading {
+        padding-top: 70px;
+    }
+
+    .section + .has-background-image {
+        padding-top: 98px;
+        margin-top: 70px;
+    }
+
+    .section + .section.has-background-image.no-section-heading {
+        padding-top: 140px;
+    }
+
+    #promotion-section {
+        padding: 140px 0;
+    }
+
+    .services-section.section .hentry .hentry-inner .post-thumbnail {
+        margin-bottom: 42px;
+    }
+
+    .site-header-logo {
+        max-width: 100%;
+    }
+
+    .color-scheme-corporate.home .header-media .section-title,
+    .color-scheme-corporate #feature-slider-section .entry-title {
+        font-size: 68px;
+        font-size: 4.25rem;
+    }
+
+    #promotion-section {
+        margin: 70px 0;
+    }
+}

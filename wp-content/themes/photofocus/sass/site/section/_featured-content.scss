@@ -1,0 +1,44 @@
+/**
+ * 14.2 - Featured Content & Portfolio
+ */
+
+.featured-content-wrapper,
+.portfolio-content-wrapper,
+.pricing-content-wrapper {
+    position: relative;
+}
+
+.events-content-wrapper a,
+.featured-content-wrapper a,
+.portfolio-content-wrapper a,
+.pricing-content-wrapper a {
+    text-decoration: none;
+}
+
+.featured-content-wrapper .post-thumbnail,
+.portfolio-content-wrapper .post-thumbnail,
+.pricing-content-wrapper .post-thumbnail {
+    width: 100%;
+}
+
+#featured-video-section .lightbox-enabled iframe {
+   pointer-events:none;
+}
+
+#featured-video-section a.mixed {
+    color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.featured-video-content-wrapper .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.featured-video-content-wrapper .entry-header .entry-meta {
+    line-height: 1.25;
+}

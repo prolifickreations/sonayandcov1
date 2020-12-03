@@ -1,0 +1,40 @@
+/**
+ * 15.1 - >= 480px
+ */
+
+@media screen and (min-width: 30em) {
+
+	.wp-custom-logo .custom-logo-link {
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+
+	.site-header-menu .menu-label {
+	    display: inline-block;
+	}
+
+	.has-header-image.home.admin-bar .custom-header-media,
+	.has-header-video.home.admin-bar .custom-header-media,
+	.has-header-text.home.admin-bar.custom-header-media {
+		height: calc(100vh - 46px);
+	}
+
+	.wp-custom-logo .custom-logo-link,
+    .wp-custom-logo .site-identity {
+        display: block;
+    }
+
+	.more-link + .more-link .solid-button {
+		margin-left: 7px;
+	}
+
+	.menu-label {
+	    display: inline-block;
+	    margin-left: 7px;
+	    margin-top: 0;
+	}
+
+	#menu-toggle {
+		flex-direction: row;
+	}
+}

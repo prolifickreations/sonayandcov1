@@ -1,0 +1,25 @@
+/**
+ * 15.10 - >= 1920px
+ */
+
+@media screen and (min-width: 120em) {
+
+	.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        margin-right: 90px;
+    }
+
+    .recent-blog-content .archive-post-wrap .entry-container,
+    .site-content .content-area .entry-container {
+	    padding: 303px 140px;
+	}
+
+	.color-scheme-corporate.home .header-media .section-title,
+	.color-scheme-corporate #feature-slider-section .entry-title {
+		font-size: 80px;
+		font-size: 5rem;
+	}
+
+	.more-link + .more-link .solid-button {
+		margin-left: 20px;
+	}
+}
