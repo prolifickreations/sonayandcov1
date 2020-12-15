@@ -26,7 +26,7 @@ else {
 			<header class="entry-header">
 				<?php if ( is_sticky() ) { ?>
 					<span class="sticky-post">
-						<span class="screen-reader-text"><?php esc_html_e( 'Featured', 'photofocus' ); ?></span>
+						<span><?php esc_html_e( 'Featured', 'photofocus' ); ?></span>
 					</span>
 				<?php } ?>
 

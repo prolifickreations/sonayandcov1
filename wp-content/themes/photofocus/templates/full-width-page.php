@@ -6,7 +6,7 @@
  *
  * The template for displaying Page/Post with No Sidebar, Full Width
  *
- * @package PhotoFocus
+ * @package Wordpress
  */
 
 get_header(); ?>

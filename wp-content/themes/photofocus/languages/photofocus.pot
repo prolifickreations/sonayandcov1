@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PhotoFocus\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2020-12-01 14:31-0500\n"
+"POT-Creation-Date: 2020-12-02 01:05-0500\n"
 "PO-Revision-Date: 2016-12-07 01:05-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -566,7 +566,7 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
-#: ../inc/class-tgm-plugin-activation.php:2549 ../inc/customizer/hero-content.php:39
+#: ../inc/class-tgm-plugin-activation.php:2549
 msgid "Type"
 msgstr ""
 
@@ -806,8 +806,8 @@ msgid "No of Slides"
 msgstr ""
 
 #: ../inc/customizer/featured-slider.php:59 ../inc/customizer/helpers.php:128
-#: ../inc/customizer/hero-content.php:50 ../inc/template-functions.php:158
-#: ../template-parts/hero-content/post-type-hero.php:65
+#: ../inc/customizer/hero-content.php:36 ../inc/template-functions.php:158
+#: ../template-parts/hero-content/post-type-hero.php:54
 msgid "Page"
 msgstr ""
 
@@ -1363,7 +1363,7 @@ msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searc
 msgstr ""
 
 #: ../template-parts/content/content-page.php:29 ../template-parts/content/content-single.php:48
-#: ../template-parts/hero-content/post-type-hero.php:61
+#: ../template-parts/hero-content/post-type-hero.php:50
 msgid "Pages:"
 msgstr ""
 
@@ -1384,7 +1384,7 @@ msgstr ""
 msgid "Scroll"
 msgstr ""
 
-#: ../template-parts/hero-content/post-type-hero.php:78
+#: ../template-parts/hero-content/post-type-hero.php:67
 #, php-format
 msgid "Edit %s"
 msgstr ""

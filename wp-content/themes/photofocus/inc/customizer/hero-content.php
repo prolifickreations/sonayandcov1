@@ -28,20 +28,6 @@ function photofocus_hero_content_options( $wp_customize ) {
 		)
 	);
 
-	$types = photofocus_section_type_options();
-
-	photofocus_register_option( $wp_customize, array(
-			'name'              => 'photofocus_hero_content_type',
-			'default'           => 'page',
-			'sanitize_callback' => 'photofocus_sanitize_select',
-			'active_callback'   => 'photofocus_is_hero_content_active',
-			'choices'           => $types,
-			'label'             => esc_html__( 'Type', 'photofocus' ),
-			'section'           => 'photofocus_hero_content_options',
-			'type'              => 'select',
-		)
-	);
-
 	photofocus_register_option( $wp_customize, array(
 			'name'              => 'photofocus_hero_content',
 			'default'           => '0',

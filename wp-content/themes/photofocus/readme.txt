@@ -4,7 +4,7 @@ Tags: grid-layout, one-column, two-columns, right-sidebar, custom-background, cu
 Requires at least: 5.1
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 1.1.3
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,13 @@ You can check our Theme Demo at https://www.catchthemes.com/demo/photofocus
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 1.1.5 (Released: December 02, 2020) =
+* Bug Fixed: Removed class screen-reader-text in sticky post 'Featured' text
+* Removed: Content Type option in Hero Content
+
+= 1.1.4 (Released: December 02, 2020) =
+* Updated: Menu spacing in mobile device
 
 = 1.1.3 (Released: December 01, 2020) =
 * Updated: Minor CSS update

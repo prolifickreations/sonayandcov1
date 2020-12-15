@@ -7,9 +7,6 @@
 ?>
 
 <?php
-
-$photofocus_type = get_theme_mod( 'photofocus_hero_content_type', 'page' );
-
 if ( $photofocus_id = get_theme_mod( 'photofocus_hero_content' ) ) {
 	$args['page_id'] = absint( $photofocus_id );
 } 
@@ -30,7 +27,7 @@ if ( $hero_query->have_posts() ) :
 				<div class="section-content-wrapper hero-content-wrapper">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<div class="hentry-inner">
-							<?php $post_thumbnail = photofocus_post_thumbnail( 'post-thumbnail', 'html-with-bg', false ); // photofocus_post_thumbnail( $image_size, $photofocus_type = 'html', $echo = true, $no_thumb = false ).
+							<?php $post_thumbnail = photofocus_post_thumbnail( 'post-thumbnail', 'html-with-bg', false );
 
 						if ( $post_thumbnail ) :
 							echo $post_thumbnail;
@@ -48,23 +45,15 @@ if ( $hero_query->have_posts() ) :
 
 							<div class="entry-content">
 								<?php
-
-									$show_content = get_theme_mod( 'photofocus_hero_content_show', 'excerpt' );
-
-									if ( 'full-content' === $show_content ) {
-										the_content();
-									} elseif ( 'excerpt' === $show_content ) {
-										the_excerpt();
-									}
-
-									wp_link_pages( array(
-										'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'photofocus' ) . '</span>',
-										'after'       => '</div>',
-										'link_before' => '<span class="page-number">',
-										'link_after'  => '</span>',
-										'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'photofocus' ) . ' </span>%',
-										'separator'   => '<span class="screen-reader-text">, </span>',
-									) );
+								the_excerpt();
+								wp_link_pages( array(
+									'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'photofocus' ) . '</span>',
+									'after'       => '</div>',
+									'link_before' => '<span class="page-number">',
+									'link_after'  => '</span>',
+									'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'photofocus' ) . ' </span>%',
+									'separator'   => '<span class="screen-reader-text">, </span>',
+								) );
 								?>
 							</div><!-- .entry-content -->
 
