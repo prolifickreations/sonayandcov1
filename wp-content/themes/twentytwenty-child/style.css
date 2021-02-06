@@ -355,6 +355,8 @@ h6,
 p {
     line-height: 1.5;
     margin: 0 0 1em 0;
+    color: #32354b;
+    font-family: 'Merriweather', serif;
 }
 
 em,
@@ -1025,7 +1027,6 @@ section {
 .section-inner.no-margin {
     margin: 0;
 }
-
 
 /* Toggles ----------------------------------- */
 
