@@ -1592,6 +1592,7 @@ body:not(.enable-search-modal) .site-logo img {
     display: none;
 }
 
+
 ul.primary-menu {
     display: flex;
     font-size: 1.8rem;
@@ -1600,6 +1601,8 @@ ul.primary-menu {
     flex-wrap: wrap;
     justify-content: flex-end;
     margin: -0.8rem 0 0 -1.6rem;
+    
+
 }
 
 .primary-menu .icon {
@@ -1619,6 +1622,8 @@ ul.primary-menu {
     position: absolute;
     bottom: calc(50% - 0.1rem);
     left: 0;
+    
+
 }
 
 .primary-menu .icon::before {
@@ -1635,6 +1640,7 @@ ul.primary-menu {
     font-size: inherit;
     line-height: 1.25;
     position: relative;
+    
 }
 
 .primary-menu>li {
@@ -1643,11 +1649,13 @@ ul.primary-menu {
 
 .primary-menu>li.menu-item-has-children>a {
     padding-right: 2rem;
+    
 }
 
 .primary-menu>li>.icon {
     right: -0.5rem;
     top: calc(50% - 0.4rem);
+  
 }
 
 .primary-menu a {
@@ -1657,6 +1665,7 @@ ul.primary-menu {
     text-decoration: none;
     word-break: normal;
     word-wrap: normal;
+    color: #dca497;
 }
 
 .primary-menu a:hover,
@@ -1728,7 +1737,7 @@ ul.primary-menu {
 .primary-menu ul a {
     background: transparent;
     border: none;
-    color: inherit;
+    color: #dca497;
     display: block;
     padding: 1rem 2rem;
     transition: background-color 0.15s linear;
@@ -4475,6 +4484,10 @@ div.comment:first-of-type {
     text-decoration: none;
     word-break: normal;
     word-wrap: normal;
+    color: #dca497;
+    font-family: 'Merriweather', serif;
+    font-weight:600;
+    font-size: 16px;
 }
 
 .footer-menu a:hover,
