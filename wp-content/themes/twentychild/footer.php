@@ -25,7 +25,7 @@
 								_x( 'Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name'); ?> </a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 						</p><!-- .footer-copyright -->
 
 						<p class="powered-by-wordpress">
@@ -33,7 +33,7 @@
 								
 							</a>
 						</p><!-- .powered-by-wordpress -->
-						
+
 					</div><!-- .footer-credits -->
 
 					<a class="to-the-top" href="#site-header">

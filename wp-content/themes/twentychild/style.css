@@ -1,7 +1,6 @@
 /*
 Theme Name: Twenty Twenty
 Text Domain: twentytwenty
-Template: twentytwenty
 Version: 1.6
 Requires at least: 4.7
 Requires PHP: 5.2.4
@@ -4426,14 +4425,7 @@ div.comment:first-of-type {
 
 
 /* Widget: Text ------------------------------ */
-.widget_text a{
-    color: #dca497;
-    font-size: 16px;
-}
-.widget_text p{
-    color: #dca497;
-    font-size: 16px;
-}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -5405,7 +5397,7 @@ a.to-the-top>* {
     }
     /* FOOTER WIDGETS */
     .footer-widgets-outer-wrapper {
-        padding: 2rem 0;
+        padding: 8rem 0;
     }
     .footer-widgets-wrapper {
         display: flex;
@@ -5427,8 +5419,6 @@ a.to-the-top>* {
     }
     .footer-widgets .widget:first-child {
         margin-top: 0;
-    
-    
     }
     /* FOOTER BOTTOM */
     #site-footer {
